@@ -13,14 +13,23 @@ pipeline {
       }
     }
     stage('从代码仓库检出') {
-      steps {
-        checkout([
-          $class: 'GitSCM',
-          branches: [[name: env.GIT_BUILD_REF]],
-          userRemoteConfigs: [[
-            url: env.GIT_REPO_URL,
-            credentialsId: env.CREDENTIALS_ID
-          ]]])
+      parallel {
+        stage('从代码仓库检出') {
+          steps {
+            checkout([
+              $class: 'GitSCM',
+              branches: [[name: env.GIT_BUILD_REF]],
+              userRemoteConfigs: [[
+                url: env.GIT_REPO_URL,
+                credentialsId: env.CREDENTIALS_ID
+              ]]])
+            }
+          }
+          stage('阶段 2-2') {
+            steps {
+              sh 'echo $GIT_DEPLOY_KEY'
+            }
+          }
         }
       }
       stage('安装npm执行环境') {
@@ -33,7 +42,6 @@ pipeline {
         steps {
           sh 'rm -rf .deploy_git'
           sh 'hexo g'
-          sh 'hexo d'
         }
       }
     }
