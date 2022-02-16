@@ -102,8 +102,13 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
+- type: git
   repo: https://gitee.com/sady/AutoPackage.git
   branch: staticHtml
   message: Site updated
   token: b118cb2d2906221f27f4aa3a48f683e3
+- type: git
+  repo: https://github.com/ooo-o-ooo/ooo-o-ooo.github.io.git
+  branch: master
+  message: Site updated
+  token: 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
