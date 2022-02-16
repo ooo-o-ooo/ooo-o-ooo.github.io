@@ -31,6 +31,7 @@ pipeline {
       }
       stage('Hexo生成并推送') {
         steps {
+          sh 'rm -rf .deploy_git'
           sh 'hexo g'
           sh 'hexo d'
         }
