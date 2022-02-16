@@ -27,7 +27,7 @@ pipeline {
         steps {
           sh 'npm install -g hexo-cli'
           sh 'hexo g'
-          sh 'pwd'
+          sh 'hexo d'
         }
       }
     }
