@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Node.js') {
+    stage('更新Nodejs版本') {
       steps {
         sh 'rm -rf /usr/lib/node_modules/npm/'
         dir('/root/.cache/downloads') {
@@ -12,7 +12,7 @@ pipeline {
         sh 'node -v'
       }
     }
-    stage('阶段 1-1') {
+    stage('从代码仓库检出') {
       steps {
         checkout([
           $class: 'GitSCM',
@@ -23,15 +23,15 @@ pipeline {
           ]]])
         }
       }
-      stage('阶段 2-1') {
+      stage('安装npm执行环境') {
         steps {
           sh 'npm install -g hexo-cli'
-          sh 'hexo g'
+          sh 'npm install hexo-deployer-git --save'
         }
       }
-      stage('阶段 4-1') {
+      stage('Hexo生成并推送') {
         steps {
-          sh 'npm install hexo-deployer-git --save'
+          sh 'hexo g'
           sh 'hexo d'
         }
       }
