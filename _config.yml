@@ -61,11 +61,11 @@ exclude: null
 ignore: null
 theme: icarus
 deploy:
-  - type: git
-    repo: https://gitee.com/sady/AutoPackage.git
-    branch: staticHtml
-    message: Site updated
-    token: b118cb2d2906221f27f4aa3a48f683e3
+  # - type: git
+  #   repo: https://gitee.com/sady/AutoPackage.git
+  #   branch: staticHtml
+  #   message: Site updated
+  #   token: b118cb2d2906221f27f4aa3a48f683e3
   - type: git
     repo: https://github.com/ooo-o-ooo/ooo-o-ooo.github.io.git
     branch: master
