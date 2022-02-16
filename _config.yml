@@ -67,7 +67,8 @@ deploy:
   #   message: Site updated
   #   token: b118cb2d2906221f27f4aa3a48f683e3
   - type: git
-    repo: https://github.com/ooo-o-ooo/ooo-o-ooo.github.io.git
+    repo: https://ooo-o-ooo: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@github.com/ooo-o-ooo/ooo-o-ooo.github.io.git
     branch: master
     message: Site updated
     token: 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
+    name: ooo-o-ooo
