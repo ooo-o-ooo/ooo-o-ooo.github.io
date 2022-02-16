@@ -27,6 +27,11 @@ pipeline {
         steps {
           sh 'npm install -g hexo-cli'
           sh 'hexo g'
+        }
+      }
+      stage('阶段 4-1') {
+        steps {
+          sh 'npm install hexo-deployer-git --save'
           sh 'hexo d'
         }
       }
