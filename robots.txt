@@ -1,0 +1,19 @@
+#Allow User Agent
+User-agent: *
+# #Allow.
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Allow: /about/
+
+#Disallow.
+Disallow: /img/
+Disallow: /css/
+Disallow: /js/
+Disallow: /photos/
+Disallow: /*.css
+Disallow: /*.js
+
+Sitemap: https://blog.sady.vip/sitemap.xml
+Sitemap: https://blog.sady.vip/baidusitemap.xml
