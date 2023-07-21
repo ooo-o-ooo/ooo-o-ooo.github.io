@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.sady.vip/link/index.html</loc>
+    
+    <lastmod>2023-07-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sady.vip/music/index.html</loc>
+    
+    <lastmod>2023-07-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sady.vip/tags/index.html</loc>
+    
+    <lastmod>2023-07-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.sady.vip/posts/46610/</loc>
     
     <lastmod>2023-07-21</lastmod>
@@ -246,33 +273,6 @@
   
   <url>
     <loc>https://www.sady.vip/gallery/index.html</loc>
-    
-    <lastmod>2023-07-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.sady.vip/link/index.html</loc>
-    
-    <lastmod>2023-07-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.sady.vip/music/index.html</loc>
-    
-    <lastmod>2023-07-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.sady.vip/tags/index.html</loc>
     
     <lastmod>2023-07-21</lastmod>
     
