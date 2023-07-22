@@ -7,8 +7,6 @@ Allow: /categories/
 Allow: /tags/
 Allow: /about/
 
-
-
 #Disallow.
 Disallow: /img/
 Disallow: /css/
