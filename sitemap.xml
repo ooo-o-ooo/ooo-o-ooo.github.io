@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.sady.vip/link/index.html</loc>
+    
+    <lastmod>2023-08-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.sady.vip/music/index.html</loc>
+    
+    <lastmod>2023-08-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.sady.vip/tags/index.html</loc>
+    
+    <lastmod>2023-08-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.sady.vip/about/index.html</loc>
     
     <lastmod>2023-08-19</lastmod>
@@ -30,33 +57,6 @@
   
   <url>
     <loc>https://blog.sady.vip/charts/index.html</loc>
-    
-    <lastmod>2023-08-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.sady.vip/link/index.html</loc>
-    
-    <lastmod>2023-08-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.sady.vip/music/index.html</loc>
-    
-    <lastmod>2023-08-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.sady.vip/tags/index.html</loc>
     
     <lastmod>2023-08-19</lastmod>
     
@@ -299,14 +299,14 @@
 
   
   <url>
-    <loc>https://blog.sady.vip/tags/Music/</loc>
+    <loc>https://blog.sady.vip/tags/Linux/</loc>
     <lastmod>2023-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.sady.vip/tags/Linux/</loc>
+    <loc>https://blog.sady.vip/tags/Music/</loc>
     <lastmod>2023-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -413,14 +413,14 @@
 
   
   <url>
-    <loc>https://blog.sady.vip/categories/%E9%9F%B3%E4%B9%90/</loc>
+    <loc>https://blog.sady.vip/categories/Linux/</loc>
     <lastmod>2023-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.sady.vip/categories/Linux/</loc>
+    <loc>https://blog.sady.vip/categories/%E9%9F%B3%E4%B9%90/</loc>
     <lastmod>2023-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
