@@ -15,5 +15,8 @@ Disallow: /categories/
 Disallow: /about/
 Disallow: /archives/
 
+
+
+
 Sitemap: https://blog.sady.vip/sitemap.xml
 Sitemap: https://blog.sady.vip/baidusitemap.xml
